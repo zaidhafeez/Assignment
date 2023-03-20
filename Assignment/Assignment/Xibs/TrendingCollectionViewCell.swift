@@ -22,7 +22,7 @@ class TrendingCollectionViewCell: UICollectionViewCell {
         lblInformation.text = "Independent Content"
         lblHandleTitle.text = post.handle.rawValue
         lblSubText.text = post.title
-        lblTime.text = post.liveAt
+        lblTime.text = post.liveAt.timeAgoSinceDate()
         let id = String(post.muxPlaybackID)
         
         guard let url = URL(string: post.profilePic) else {

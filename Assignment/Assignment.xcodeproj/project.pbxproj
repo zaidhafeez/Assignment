@@ -48,6 +48,7 @@
 		F114350B29C8245800275080 /* TrendingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F114350929C8245800275080 /* TrendingCollectionViewCell.swift */; };
 		F114350C29C8245800275080 /* TrendingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F114350A29C8245800275080 /* TrendingCollectionViewCell.xib */; };
 		F114350F29C83B1300275080 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = F114350E29C83B1300275080 /* SDWebImage */; };
+		F114351129C85E9E00275080 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F114351029C85E9E00275080 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,7 @@
 		F114350429C81ED300275080 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		F114350929C8245800275080 /* TrendingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCollectionViewCell.swift; sourceTree = "<group>"; };
 		F114350A29C8245800275080 /* TrendingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendingCollectionViewCell.xib; sourceTree = "<group>"; };
+		F114351029C85E9E00275080 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 				F11434DE29C7912600275080 /* StoryboardType.swift */,
 				F11434E229C7929400275080 /* UIViewExtensions.swift */,
 				F11434FE29C7A83B00275080 /* EncodableExtension.swift */,
+				F114351029C85E9E00275080 /* StringExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				F114350B29C8245800275080 /* TrendingCollectionViewCell.swift in Sources */,
 				F11434E529C7960600275080 /* AppFonts.swift in Sources */,
 				F11434F029C79AD200275080 /* APIPath.swift in Sources */,
+				F114351129C85E9E00275080 /* StringExtensions.swift in Sources */,
 				F11434FD29C7A4AC00275080 /* TrendingPostModel.swift in Sources */,
 				F11434BE29C78FAC00275080 /* Observable.swift in Sources */,
 				F11434FF29C7A83B00275080 /* EncodableExtension.swift in Sources */,
