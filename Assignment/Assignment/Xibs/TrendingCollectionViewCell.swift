@@ -17,6 +17,7 @@ class TrendingCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var lblSubText: UILabel!
     @IBOutlet weak var lblTime: UILabel!
     
+    //configure
     func configure(post: Post) {
         lblInformation.text = "Independent Content"
         lblHandleTitle.text = post.handle.rawValue
